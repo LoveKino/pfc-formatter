@@ -11,8 +11,6 @@ let format = (source, {
 
     let root = parseStrToAst(source);
 
-    if (!root) return '';
-
     let sourceStack = [{
         node: root,
         visited: false,

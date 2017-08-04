@@ -4,6 +4,7 @@ let {
 let assert = require('assert');
 
 let testData = {
+    '': '',
     'f()': 'f()',
 
     'f(1)': `f(
